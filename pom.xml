@@ -121,7 +121,7 @@
         <graalvm.version>22.3.0</graalvm.version>
         <gson.version>2.9.0</gson.version>
         <guice.version>4.0</guice.version>
-        <hadoop.version>3.2.1</hadoop.version>
+        <hadoop.version>3.3.0</hadoop.version>
         <ozone.version>1.0.0</ozone.version>
         <hamcrest.version>2.2</hamcrest.version>
         <hbase.version>2.4.6</hbase.version>
@@ -845,11 +845,12 @@
         </repository>
     </distributionManagement>
     <repositories>
+        <!--
         <repository>
             <id>cloudera.repo</id>
             <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
         </repository>
-        <!--
+
        <repository>
            <id>apache.snapshots.https</id>
            <name>Apache Development Snapshot Repository</name>
