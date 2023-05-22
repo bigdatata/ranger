@@ -116,7 +116,7 @@ public class RangerPluginConfig extends RangerConfiguration {
 
         this.policyEngineOptions = policyEngineOptions;
 
-        LOG.info("", policyEngineOptions);
+        LOG.info("policyEngineOptions : {}", policyEngineOptions);
     }
 
     protected RangerPluginConfig(String serviceType, String serviceName, String appId, RangerPluginConfig sourcePluginConfig) {

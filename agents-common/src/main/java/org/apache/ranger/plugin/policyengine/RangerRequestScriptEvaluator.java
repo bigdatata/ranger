@@ -1283,7 +1283,7 @@ public final class RangerRequestScriptEvaluator {
 	}
 
 	public void logInfo(Object msg) {
-		LOG.info("", msg);
+		LOG.info("{}", msg);
 	}
 
 	public void logWarn(Object msg) {
